@@ -47,7 +47,7 @@ if __name__ == '__main__':
        One parameter required - an array of integers input as a
        comma separated string without spaces
        \r\nExample:
-       .\\1.py 1,2,4,9,7"""
+       .\\4.py 1,2,4,9,7"""
     
     # regex ensuring argument is comma separated integers
     if not re.match(r'^(-?[0-9]+,)+-?[0-9]+$', inputSet):
