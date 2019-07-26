@@ -35,11 +35,36 @@ translationDict = {
     6: "f",
     7: "g",
     8: "h",
-    9: "i"
+    9: "i",
+    10: "j",
+    11: "k",
+    12: "l",
+    13: "m",
+    14: "n",
+    15: "o",
+    16: "p",
+    17: "q",
+    18: "r",
+    19: "s",
+    20: "t",
+    21: "u",
+    22: "v",
+    23: "w",
+    24: "x",
+    25: "y",
+    26: "z"
 }
 
 def decodeMessage(message):
     messageSequence = list(message)
+
+    workingChar = ''
+
+    for i in messageSequence:
+        if int(i) >= 1 and int(i) <= 26 and len(workingChar) < 2:
+            workingChar = workingChar + i
+            if len(workingChar) = 1 and int(workingChar) > 0:
+                
 
 
 if __name__ == '__main__':
